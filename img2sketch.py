@@ -30,11 +30,7 @@ def pencil_sketch(source_path, destination_path):
   pencil_photo = dodgeV2(gray,gauss)
     
   cv2.imwrite(destination_path,pencil_photo)
-  #cv2.imwrite("/home/pavan/Desktop/resized.jpg",resized)
-  #cv2.imwrite("/home/pavan/Desktop/gauss.jpg",gauss)
-  #cv2.imwrite("/home/pavan/Desktop/inv.jpg",inv)
-  #cv2.imwrite("/home/pavan/Desktop/gray.jpg",gray)
-  #cv2.imwrite("/home/pavan/Desktop/sharpened.jpg",sharpened)
+
 
 if __name__ == "__main__":
   pencil_sketch("/home/pavan/Desktop/x5.jpg", "/home/pavan/Desktop/y5.jpg")
