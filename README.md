@@ -14,7 +14,7 @@ All you have to do is just download the package as
 You can use this package in your code as
 
 ##usage
-	
+	from img2sketch.img2sketch import img2sketch
 	img2sketch("/path/of/your/original/photo.jpg", "/path/where/your/newphoto/tobe/saved.jpg")
 
 For example:
