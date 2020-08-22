@@ -26,3 +26,4 @@ Here my code looks like
 	img2sketch("/home/pavan/Desktop/pavan.jpg", "/home/pavan/Desktop/new.jpg")
 
 After the program executes the transformed photo is saved under the path you have provided.
+Best results in Jupyter Notebook
