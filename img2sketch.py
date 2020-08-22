@@ -5,7 +5,7 @@ def dodgeV2(image,mask):
   return cv2.divide(image,255-mask,scale=256)
 
 
-def pencil_sketch(source_path, destination_path):
+def img2sketch(source_path, destination_path):
   source_photo = cv2.imread(source_path)
   scale_percent = 0.60
 
@@ -33,5 +33,5 @@ def pencil_sketch(source_path, destination_path):
 
 
 if __name__ == "__main__":
-  pencil_sketch("/home/pavan/Desktop/x5.jpg", "/home/pavan/Desktop/y5.jpg")
+  img2sketch("/home/pavan/Desktop/x5.jpg", "/home/pavan/Desktop/y5.jpg")
 
